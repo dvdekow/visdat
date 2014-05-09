@@ -16,20 +16,17 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 		<link href="css/custom.css" rel="stylesheet">
-		<!--<script type="text/javascript"
-			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEMNSC2jtssmzC7cZlW-iLfJ78W8CxwyE&sensor=true">
-    </script>-->
-    <script type="text/javascript">
-      //function initialize() {
-      //  var mapOptions = {
-      //    center: new google.maps.LatLng(-6.9038900, 107.6186100),
-      //    zoom: 12
-      // };
-      //  var map = new google.maps.Map(document.getElementById("peta"),
-      //      mapOptions);
-      //}
-      //google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
+		    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="lib/jquery-2.1.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+		<script src="lib/slide.js"></script>
+		<script type="text/javascript" src="lib/jquery.maphilight.min.js"></script>
+		<script type="text/javascript">
+		$(function() {
+			$('.map').maphilight();
+		});
+		</script>
   </head>
   <body>
 		<div class="header">
@@ -59,9 +56,10 @@
 		</div>
 		
 		<div id="peta" class="page-section intro">
-			<img usemap="#bandung_map" src="images/map.png" width="70%" height="70%" />
-			<map id="bandung_map" name="bandung_map">
-				<area shape="poly" coords="7.58,12.12,13.34,10.96,13.83,12.07,13.93,15.43,13.30,15.68,12.51,15.53,8.33,13.66" href="www.facebook.com" />
+			<img class="map" src="images/map.png" width="980" height="718" usemap="#planetmap">
+			<map name="planetmap">
+				<area shape="poly" coords="10,20,20,40,100,200,10,200" alt="Sun" href="sun.htm" class="{fillColor:'00ff00'}">
+				<area shape="poly" coords="40,50,70,90,140,240,50,240" alt="Sun" href="sun.htm" class="{fillColor:'00ffdd'}">
 			</map>
 		</div>
 		
@@ -83,10 +81,6 @@
 			</div>
 		</div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="lib/jquery-2.1.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-		<script src="lib/slide.js"></script>
+
   </body>
 </html>
