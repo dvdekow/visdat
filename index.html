@@ -39,35 +39,46 @@
   <body>
 		<div class="header">
 		<div class="container">
-		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="">.bdg</a>
-        </div>
-        <div id="main-nav" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="#" class="scroll-link" data-id="peta">Peta</a></li>
-            <li><a href="#" class="scroll-link" data-id="tline">Timeline</a></li>
-            <li><a href="#" class="scroll-link" data-id="dinas">Dinas</a></li>
-						<li><a href="#" class="scroll-link" data-id="kami">Tentang Kami</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
+		<div class="navbar transparent navbar-default navbar-fixed-top" role="navigation">
+		  <div class="container">
+			<div class="navbar-header">
+			  <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href=""></a>
+			</div>
+			<div id="main-nav" class="collapse navbar-collapse">
+			  <ul class="nav navbar-nav">
+				<li><a href="#" class="scroll-link" data-id="peta">Peta</a></li>
+				<li><a href="#" class="scroll-link" data-id="tline">Timeline</a></li>
+				<li><a href="#" class="scroll-link" data-id="dinas">Dinas</a></li>
+							<li><a href="#" class="scroll-link" data-id="kami">Tentang Kami</a></li>
+			  </ul>
+			</div><!--/.nav-collapse -->
+		  </div>
     </div>
 		</div>
 		</div>
 		
 		<div class="page-section intro">
-			<div class="container"><img class="logo" src="images/logo.png" width="50%" /></div>
+			<div class="container"><img class="logo" src="images/logo2.png" width="50%" /></div>
 			<div class="container">
 			<div class="row">
-				<div class="col-md-6">
+			<div class="col-md-6 sumber">
+					<h2 class="text-left"><strong>2371</strong> Keluhan</h2>
+					<a href="#" class="scroll-link" data-id="peta"><h2 class="text-left"><strong>30</strong> Kecamatan</h2>
+					</a>
+					<a href="#" class="scroll-link" data-id="dinas">
+					<h2 class="text-left"><strong>45</strong> Lembaga</h2>
+					</a>
+					<a href="#" class="scroll-link" data-id="tline">
+					<h2 class="text-left"><strong>4,5</strong> Bulan</h2>
+					</a>
+				</div>
+				<div class="col-md-6 keluhan">
 					<blockquote class="keluhan">
 						<p id="changeText">Keluhan oleh Masyarakat</p>
 						<footer>Masyarakat Kota Bandung</footer>
@@ -79,24 +90,15 @@
 							<div class="panel-footer">Keluhan oleh Masyarakat</div> 
 						</div> -->
 				</div>
-				<div class="col-md-6">
-					<h2 class="text-center"><strong>2371</strong> Keluhan</h2>
-					<a href="#" class="scroll-link" data-id="peta"><h2 class="text-center"><strong>30</strong> Kecamatan</h2>
-					</a>
-					<a href="#" class="scroll-link" data-id="dinas">
-					<h2 class="text-center"><strong>45</strong> Lembaga</h2>
-					</a>
-					<a href="#" class="scroll-link" data-id="tline">
-					<h2 class="text-center"><strong>4,5</strong> Bulan</h2>
-					</a>
-				</div>
+				
 			</div>
 			</div>
 			
 		</div>
 		
 		<div id="peta" class="page-section peta">
-				<img src="images/map.png" width="930" height="681" border="0" alt="" style="padding:0px;"usemap="#bandung_map__clear_Map">
+ 				<div class="col-md-8">
+				<img src="images/map.png" width="930" height="681" border="0" alt="" usemap="#bandung_map__clear_Map">
 					<map name="bandung_map__clear_Map">
 					<area shape="poly" group="lengkong" alt="" coords="425,397, 430,397, 434,416, 442,431, 451,446, 457,463, 457,501, 455,512, 455,525, 452,535, 411,545, 388,545, 387,528, 391,513, 390,499, 382,488, 372,477, 362,459, 349,449, 338,438, 338,424, 356,424, 374,425, 385,419, 395,411, 410,404, 425,397" href="#bandung_lengkong" class="{fillColor:'00ff11'}">
 					<area shape="poly" group="regol" alt="" coords="301,418, 337,424, 337,437, 365,468, 389,503, 389,518, 385,527, 385,539, 389,547, 389,568, 388,570, 373,571, 358,572, 354,572, 341,563, 331,527, 315,495, 298,485, 298,468, 298,451, 298,434, 293,422, 293,418, 301,418" href="#bandung_lengkong">
@@ -143,12 +145,15 @@
 					<area shape="poly" group="sumurb" alt="" coords="299,353, 303,353, 303,354, 311,357, 321,356, 331,356, 338,362, 346,367, 361,368, 377,368, 392,369, 404,374, 408,382, 412,392, 412,402, 392,412, 374,424, 357,424, 293,416, 293,411, 299,401, 299,386, 298,369, 299,353" href="#bandung_lengkong">
 					<area shape="poly" group="kaler" alt="" coords="231,410, 237,410, 254,413, 270,416, 288,416, 297,430, 297,483, 291,476, 288,466, 263,500, 238,534, 234,534, 231,531, 226,531, 223,529, 220,515, 216,502, 216,496, 224,479, 227,456, 228,432, 231,410" href="#bandung_lengkong">
 					</map>
-					<img src="images/marker.png" width="50px" height="50px" id="marker" style="display: none; position: absolute;" />
+					<img src="images/marker.png" width="50px" height="50px" id="marker1" style="display: none; position: absolute;" />
 					<img src="images/marker.png" width="50px" height="50px" id="marker2" style="display: none; position: absolute;" />
+					<img src="images/marker.png" width="50px" height="50px" id="marker3" style="display: none; position: absolute;" />
+					<img src="images/marker.png" width="50px" height="50px" id="marker4" style="display: none; position: absolute;" />
+				</div>
 		</div>
 		
 		<div id="tline" class="page-section">
-			<div class="container">
+			<div class="container tline">
 				<iframe src='http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0AlOQvKs6BTgidDhSNVVDMlp4NTVTQzlwVkl4clRPSlE&font=Bevan-PotanoSans&maptype=toner&lang=en&start_zoom_adjust=1&height=650' width='100%' height='650' frameborder='0'></iframe>
 			</div>
 		</div>
@@ -208,7 +213,7 @@
 		 <div id="toPopup">
         <div class="close"></div>
        	<span class="ecs_tooltip">Press Esc to close <span class="arrow"></span></span>
-				<div id="popup_content"> <!--your content start-->
+		<div id="popup_content"> <!--your content start-->
             <p>test</p>
             <p align="center"><a href="#" onclick="javascript:disablePopup()" class="livebox">Click Here Trigger</a></p>
         </div> <!--your content end-->
