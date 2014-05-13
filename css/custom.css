@@ -52,9 +52,18 @@
 		}
 		
 		.page-section.peta{
-			background-image:url("../images/mapbg2.jpg");
+			/*background-image:url("../images/mapbg2.jpg");*/
+			background-color: #eee;
 			background-size: cover;
 		}
+		
+		.page-section.dinas{
+			/*background-image:url("../images/mapbg2.jpg");*/
+			background-color: #5bc0de;
+			background-size: cover;
+		}
+		
+		
 		.page-section.intro {
 			background-image:url("../images/pasopatinew.jpg");
 			background-size: cover;
