@@ -52,13 +52,14 @@
 		}
 		
 		.page-section.peta{
-			background-image:url("../images/map-bg.png");
+			background-image:url("../images/mapbg2.jpg");
 			background-size: cover;
 		}
 		.page-section.intro {
 			background-image:url("../images/pasopatinew.jpg");
 			background-size: cover;
 		}
+		
 		.keluhan {
 			margin-top : 10%;
 		}
@@ -88,6 +89,7 @@
 		
 		.col-md-8 {
 			margin-top: -30px;
+			margin-left: 180px;
 		}
 		
 		.col-md-6.keluhan {
