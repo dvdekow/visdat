@@ -40,6 +40,10 @@
 			margin-top: 10%;
 		}
 		
+		.container.tline {
+			margin-top:-20px;
+		}
+		
 		.page-section h2 {
 			color : #00a3db;
 		}
