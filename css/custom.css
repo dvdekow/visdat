@@ -36,6 +36,9 @@
 			margin: 0 0 30px;
 			text-shadow: 2px 2px 2px #000;
 		}*/
+		#tline{
+			margin-top: 10%;
+		}
 		
 		.page-section h2 {
 			color : #00a3db;
@@ -45,7 +48,8 @@
 		}
 		
 		.page-section.peta{
-			margin-top : 10%;
+			background-image:url("../images/map-bg.png");
+			background-size: cover;
 		}
 		.page-section.intro {
 			background-image:url("../images/pasopatinew.jpg");
