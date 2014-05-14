@@ -14,7 +14,9 @@
 			font-weight: 900;
 		}
 		.logo {
-			float:right;
+			float:left;
+			margin-top: 50px;
+			margin-left: -120px;
 		}
 		.header .navbar {
 			margin: 0;
@@ -46,7 +48,8 @@
 			margin-top : 10%;
 		}
 		.page-section.intro {
-			background-image:url("../images/pasopati.jpg");
+			background-image:url("../images/pasopatinew.jpg");
+			background-size: cover;
 		}
 		.keluhan {
 			margin-top : 10%;
@@ -79,15 +82,24 @@
 			margin-top: -30px;
 		}
 		
+		.col-md-6.keluhan {
+			margin-top: -500px;
+			margin-left: 660px;
+		}
+		
+		.col-md-6.sumber {
+			margin-top: -40px;
+		}
+		
 		#backgroundPopup {
-    z-index:1;
-    position: fixed;
-    display:none;
-    height:100%;
-    width:100%;
-    background:#000000;
-    top:0px;
-    left:0px;
+			z-index:1;
+			position: fixed;
+			display:none;
+			height:100%;
+			width:100%;
+			background:#000000;
+			top:0px;
+			left:0px;
 		}
 		#toPopup {
 				font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
